@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CadastrarComponent } from './cadastrar/cadastrar.component';
 import { LogarComponent } from './logar/logar.component';
 import { InicioComponent } from './inicio/inicio.component';
+import { TemaComponent } from './tema/tema.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { InicioComponent } from './inicio/inicio.component';
     FooterComponent,
     CadastrarComponent,
     LogarComponent,
-    InicioComponent
+    InicioComponent,
+    TemaComponent
   ],
   imports: [
     BrowserModule,
